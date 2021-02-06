@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(119, 16, 216, 0.664);
+}
+h2, h4{
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 3%;
+}
+#country-names{
+    height: 82vh;
+    border: 3px solid rebeccapurple;
+}
+#countries-div{
+    height: 85%;
+    overflow: scroll;
+}
+#country-details{
+    height: 82vh;
+    border: 3px solid rebeccapurple;
+    margin-left: 10vh;
+}
+li{
+    list-style: none;
+}
